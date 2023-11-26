@@ -1,0 +1,13 @@
+•	När använder man add respektive commit?
+-	Efter att ha gjort ändringar i arbetskatalogen kommer detta kommando att markera ändringarna som stegvis, vilket betyder att de är redo för commit. Med hjälp av git status-kommandot kan du kontrollera om det finns några "scensatta" ändringar.
+
+•	Vad är pull repektive push?
+-	git push är ett kommando som används för att ladda upp commits/ändringar som görs och sparas lokalt.
+-	Om flera personer använder samma fjärrlager, eller om du använder flera datorer, måste du ladda ner ändringar som andra har laddat upp. Detta görs med kommandot git pull origin <branch-name>.
+
+•	När använder man log respektive status?
+-	Kommandot git log visar engagerade ögonblicksbilder. Det låter dig lista projekthistorik, filtrera den och söka efter specifika ändringar.
+-	 Kommandot git status visar statusen för arbetskatalogen och mellanlagringsområdet. Det låter dig se vilka ändringar som har iscensatts, vilka som inte har iscensatts och vilka filer som inte spåras av Git
+
+•	Vad är en Git branch och varför är de viktiga?
+-	En gren (svenska, gren) är ett sätt att arbeta med Git. Namnet kommer från Gits trädstruktur. Den här guiden visar hur du använder grenar med Git cmd. Som standard har alla förråd en gren som heter main. Allt arbete du har gjort hittills har gjorts i huvudsak. Detta bör i allmänhet undvikas av olika skäl. Att arbeta i huvudsak kan leda till säkerhetsproblem, dataförlust osv.
